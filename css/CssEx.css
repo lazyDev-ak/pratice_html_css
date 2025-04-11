@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: white;
+}
+div {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border: 2px solid black;
+    line-height: 80px;
+}
