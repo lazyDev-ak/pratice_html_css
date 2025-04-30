@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <style>
+        .horizantal{
+            display: flex;
+            margin-left: 5px;
+            float: right;
+            
+        }
+        .horizantal > li{
+            padding: 5px;
+            font-size: 20px;
+            margin-right: 5px;
+            background-color: #d64161;
+            
+        }
+        .horizantal > li > a{
+            color: black;
+            text-decoration: none;
+        }
+        .horizantal > li:hover{
+            background-color: blue;
+        }
+        .horizantal > li > a:hover{
+            color: rgb(115, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <div style="height:60px;background-color: #d64161;">
+        <!-- <div >Vertical (sidebar) Navigation bar</div>
+        <ul type="none">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#aboutus">About US</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul> -->
+
+        <ul class="horizantal" type="none">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#aboutus">About US</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+
+    </div>
+    <div>Visit Google.co.in <a href="https://www.google.co.in"><button>Visit</button></a></div>
+    <div>Visit Google.com <a href="https://www.google.com"><button>Visit</button></a></div>
+    <div  id="aboutus" style="border: 2px solid black;height: 90vh;">About Us</div>
+
+</body>
+</html>
